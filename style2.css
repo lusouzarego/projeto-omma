@@ -1,0 +1,146 @@
+*{
+    margin: 0.2%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+#img-banner {
+    padding: 15px 0px 15px 0px;
+}
+
+nav {
+display: flex;
+background-color: #FFA000;
+justify-content: space-evenly;
+width:auto;
+
+
+}
+
+nav ul li a {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    list-style: none;
+
+
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li {
+font-size: 30;
+font-weight: 700;
+padding: 7px 30px 7px 30px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+    text-decoration-line: none;
+
+}
+
+header{
+    display: flex;
+    background-color: #FFC107;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 4px #b47303a4;
+
+}
+
+.secao-receitas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 2%;
+    
+}
+
+.secao-receitas a{
+    display: inline-block;
+    margin-top: 3%;
+    border: 1px solid ;
+    padding: 5px 25px;
+    background-color: #176902;
+    border-radius: 5px;
+    color: white
+
+}
+
+.secao-receitas p{
+    font-weight: 600;
+font-size: 26px;
+}
+
+
+
+.receita {
+    margin-bottom: 10%;
+
+}
+
+
+
+
+
+.secao-receitas img{
+width: 350px;
+height: 350px;
+
+}
+
+.titulo-pagina{
+font-weight: 700;
+font-size: 50px;
+color: #FFA000;
+text-indent: 5%;
+margin-top: 10%;
+margin-bottom: 5%;
+
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFC107;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    box-shadow: 0px 4px 4px #b47303a4;
+}
+
+#texto-footer {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}

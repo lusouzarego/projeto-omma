@@ -1,0 +1,200 @@
+*{
+    margin: 0.2%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+#img-banner {
+    padding: 15px 0px 15px 0px;
+}
+
+nav {
+display: flex;
+background-color: #FFA000;
+justify-content: space-evenly;
+width:auto;
+
+
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    list-style: none;
+
+
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li {
+font-size: 30;
+font-weight: 700;
+padding: 7px 30px 7px 30px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+    text-decoration-line: none;
+
+}
+header{
+    display: flex;
+    background-color: #FFC107;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 4px #b47303a4;
+
+}
+
+#receitas-afeto{
+width: 100%;
+height: 638.18px;
+}
+
+
+#comer-viver{
+    width: 100%;
+    height: 772px;
+}
+
+.escrita-afeto-img{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    right: 10%;
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.escrita-comer-viver1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    margin-top: 10%;
+    left: 2%;
+}
+
+.escrita-comer-viver2{
+    width: 424px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position:absolute;
+    margin-top: 20%;
+    left: 2%;
+
+
+}
+
+.titulo-pagina {
+    width: 830px;
+    height: 67px;
+    left: 305px;
+    top: 878px; 
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color:  #FFA000;
+    display: inline-block;
+    text-align: center;
+    margin-left: 35%;
+
+   }
+
+   .imagens-semana{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 2%;
+   }
+
+
+   .receita img{
+    width: 345px;
+    height: 342px;
+
+   }
+
+   .receita a{
+    display: inline-block;
+    margin-top: 3%;
+    border: 1px solid ;
+    padding: 5px 25px;
+    background-color: #176902;
+    border-radius: 5px;
+    color: white
+   }
+
+   .receita p{
+    font-weight: 600;
+    font-size: 26px;
+   }
+
+   .receita{
+    margin-bottom: 5%;
+   }
+
+   .escrita-afeto-img{
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    width: 370px;
+    height: 170px;
+       }
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFC107;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    box-shadow: 0px 4px 4px #b47303a4;
+}
+
+#texto-footer {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}
